@@ -5,7 +5,7 @@ import javax.persistence.*;
 @Entity
 public class Vendedor {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
 
