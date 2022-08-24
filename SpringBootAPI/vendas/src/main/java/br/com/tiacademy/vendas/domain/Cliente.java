@@ -12,6 +12,14 @@ public class Cliente {
     private Long id;
     private String nome;
 
+    public Cliente(Long id, String nome) {
+        this.id = id;
+        this.nome = nome;
+    }
+
+    public Cliente() {
+    }
+
     public Long getId() {
         return id;
     }

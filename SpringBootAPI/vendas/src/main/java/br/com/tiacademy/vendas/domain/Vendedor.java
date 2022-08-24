@@ -8,8 +8,15 @@ public class Vendedor {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-
     private String nome;
+
+    public Vendedor(Long id, String nome){
+        this.id = id;
+        this.nome = nome;
+    }
+
+    public Vendedor(){
+    }
 
     public Long getId() {
         return id;
